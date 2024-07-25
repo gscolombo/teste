@@ -1,4 +1,4 @@
-# Desenvolvimento Web
+# Desenvolvimento de Soluções
 
 ## Introdução
 Desenvolva uma aplicação web com o intuito de ser um simulador de compras. O seu fluxo deve se basear respectivamente em três etapas: coleta de informações de um cliente fictício por meio de perguntas, busca no banco de dados das informações necessárias, tratamento desses dados.
