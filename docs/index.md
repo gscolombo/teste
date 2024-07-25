@@ -16,7 +16,7 @@ Para a coleta de informações é necessário obter do usuário:
 > É importante que essas informações sejam armazenadas no banco de dados
 
 ### Busca no Banco de Dados
-Nesta etapa é necessário fazer uma filtragem no banco de dados (estão na forma de uma planilha excel) para encontrar quais são os valores interessantes para o cliente. Dessa forma, deve-se encontrar valores que estão entre `valorDeInteresse ≤ valorDoBanco ≤ 1.1 * valorDeInteresse`.
+Nesta etapa é necessário fazer uma filtragem no banco de dados (estão na forma de um .csv) para encontrar quais são os valores interessantes para o cliente. Dessa forma, deve-se encontrar valores que estão entre `valorDeInteresse ≤ valorDoBanco ≤ 1.1 * valorDeInteresse`.
 
 ### Tratamento dos dados 
 Já com as informações filtradas do Banco de Dados, será necssário fazer três filtros para apresentar ao usuário final:
