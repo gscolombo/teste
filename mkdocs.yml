@@ -1,0 +1,8 @@
+site_name: Questionário AZconeX
+
+site_url: https://brunoazconex.github.io/teste/
+theme:
+  name: material
+
+nav:
+  - Home: 'index.md'
