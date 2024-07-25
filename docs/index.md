@@ -13,7 +13,7 @@ Para a coleta de informações é necessário obter do usuário:
 - Telefone;
 - Valor de interesse.
 
-> É importante que essas informações sejam armazenadas no banco de dados
+> É importante que essas informações sejam armazenadas no banco de dados.
 
 ### Busca no Banco de Dados
 Nesta etapa é necessário fazer uma filtragem no banco de dados (estão na forma de um .csv) para encontrar quais são os valores interessantes para o cliente. Dessa forma, deve-se encontrar grupos que estão entre `valorDeInteresse ≤ valorDoBanco ≤ 1.1 * valorDeInteresse`.
