@@ -1,11 +1,12 @@
 import csv
-
 # Função para filtrar os dados
+import pandas as pd
 
 
 def filtrar_valores_interessantes(arquivo_csv, valorDeInteresse):
-    """ Leitura das informações e armazenamento na lista """
+    """ Leitura das informações e armazenamento na lista. """
 
+    # Criação das listas
     valores_interessantes = []
     grupo_atual = []
 
@@ -47,6 +48,10 @@ def main():
         print("Valores interessantes encontrados:")
         for dado in valores_interessantes:
             print(dado)
+        
+        # Adicionando ao arquivo csv
+        df = pd.DataFrame(valores_interessantes, columns=['Grupo', 'Valor', 'Parcela', 'Contemplação'])
+        df.to_csv('output.csv', index=False)
     else:
         print("Valores não encontrados")
 

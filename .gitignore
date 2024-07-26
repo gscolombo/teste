@@ -1,2 +1,5 @@
 # Mkdocs
 site/
+
+# Tirando output
+output*
