@@ -1,5 +1,6 @@
 site_name: Questionário AZconeX
 
+repo_url: https://github.com/BrunoAZCONEX/teste
 site_url: https://brunoazconex.github.io/teste/
 theme:
   name: material
