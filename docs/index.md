@@ -1,7 +1,7 @@
 # Desenvolvimento de Soluções
 
 ## Introdução
-Desenvolva uma aplicação web com o intuito de ser um simulador de compras. O seu fluxo deve se basear respectivamente em três etapas: coleta de informações de um cliente fictício por meio de perguntas, busca no banco de dados das informações necessárias, tratamento desses dados.
+Dentro do que você atua e conhece, apresente uma solução para o cliente de uma aplicação, podendo ser web com o intuito de ser um simulador de compras. O seu fluxo deve se basear respectivamente em três etapas: coleta de informações de um cliente fictício por meio de perguntas, busca no banco de dados das informações necessárias, tratamento desses dados. 
 
 
 ## Detalhamento
@@ -10,8 +10,8 @@ Desenvolva uma aplicação web com o intuito de ser um simulador de compras. O s
 Para a coleta de informações é necessário obter do usuário:
 
 - Nome;
-- Telefone;
-- Valor de interesse.
+- E-mail;
+- Valor de interesse(valor bem).
 
 > É importante que essas informações sejam armazenadas no banco de dados.
 
