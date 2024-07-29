@@ -39,7 +39,7 @@ def filtrar_valores_interessantes(arquivo_csv, valorDeInteresse):
 def main():
     # Exemplo de uso
     arquivo_csv = 'banco.csv'
-    valorDeInteresse = 70000  # Valor de interesse definido pelo cliente
+    valorDeInteresse = 130000  # Valor de interesse definido pelo cliente
     valores_interessantes = filtrar_valores_interessantes(
         arquivo_csv, float(valorDeInteresse))
 
